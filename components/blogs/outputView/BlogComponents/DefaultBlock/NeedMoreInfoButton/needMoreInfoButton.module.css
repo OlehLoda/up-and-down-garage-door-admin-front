@@ -1,0 +1,56 @@
+.moreInfoButton {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  place-content: center;
+  place-items: center;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  gap: 12px;
+  padding: 8.5px 0;
+  transition: 0.3s;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+.moreInfoButton:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.coverButtonText {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 140%;
+  text-align: center;
+  color: #838383;
+}
+.coverLink {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 140%;
+  color: #0876e0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-content: center;
+  align-items: center;
+  gap: 4px;
+}
+@media screen and (max-width: 1024px) {
+  .moreInfoButton {
+    grid-template-columns: repeat(1, auto);
+    gap: 4px;
+    padding: 4px 10px;
+    margin: 0;
+  }
+  .coverButtonText {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .coverLink {
+    font-weight: 700;
+    font-size: 17px;
+  }
+}

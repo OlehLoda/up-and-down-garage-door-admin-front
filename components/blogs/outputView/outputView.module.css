@@ -1,0 +1,15 @@
+.wrapOutputView {
+  background-color: #ffffff;
+  overflow-y: overlay;
+}
+.wrapOutputView::-webkit-scrollbar {
+  width: 8px;
+}
+.wrapOutputView::-webkit-scrollbar-track {
+  background-color: var(--body-color);
+}
+.wrapOutputView::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  border: 2px solid var(--body-color);
+}

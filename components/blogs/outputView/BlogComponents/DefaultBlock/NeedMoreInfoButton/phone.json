@@ -1,0 +1,130 @@
+{
+  "default": {
+    "phone": "8559094011",
+    "textPhone": "(855) 909-4011"
+  },
+  "ct": {
+    "phone": "2037479615",
+    "textPhone": "(203)-747-9615"
+  },
+  "ny": {
+    "phone": "9146276003",
+    "textPhone": "(914)-627-6003"
+  },
+  "ri": {
+    "phone": "4013867782",
+    "textPhone": "(401)-386-7782"
+  },
+  "tx": {
+    "phone": "4695527601",
+    "textPhone": "(469)-552-7601"
+  },
+  "az": {
+    "phone": "6232438180",
+    "textPhone": "(623) 243-8180"
+  },
+  "il": {
+    "phone": "8722679869",
+    "textPhone": "(872)-267-9869"
+  },
+  "fl": {
+    "phone": "7273823614",
+    "textPhone": "(727) 382-3614"
+  },
+  "locksmith-new-haven": {
+    "phone": "2037105251",
+    "textPhone": "(203) 710-5251"
+  },
+  "locksmith-torrington": {
+    "phone": "8609435263",
+    "textPhone": "(860) 943-5263"
+  },
+  "locksmith-west-hartford": {
+    "phone": "8605442556",
+    "textPhone": "(860) 544-2556"
+  },
+  "locksmith-bridgeport": {
+    "phone": "2038197175",
+    "textPhone": "(203) 819-7175"
+  },
+  "locksmith-greenwich": {
+    "phone": "2033090930",
+    "textPhone": "(203) 309-0930"
+  },
+  "locksmith-stamford": {
+    "phone": "2033447454",
+    "textPhone": "(203) 344-7454"
+  },
+  "locksmith-danbury": {
+    "phone": "2039007467",
+    "textPhone": "(203) 900-7467"
+  },
+  "locksmith-scottsdale": {
+    "phone": "4807712154",
+    "textPhone": "(480) 771-2154"
+  },
+  "locksmith-cypress": {
+    "phone": "2816885177",
+    "textPhone": "(281) 688-5177"
+  },
+  "locksmith-sherman": {
+    "phone": "4302240078",
+    "textPhone": "(430) 224-0078"
+  },
+  "locksmith-houston": {
+    "phone": "2815035612",
+    "textPhone": "(281) 503-5612"
+  },
+  "locksmith-dallas": {
+    "phone": "4693005386",
+    "textPhone": "(469) 300-5386"
+  },
+  "locksmith-mckinney": {
+    "phone": "4695360701",
+    "textPhone": "(469) 536-0701"
+  },
+  "locksmith-chicago": {
+    "phone": "3128746375",
+    "textPhone": "(312) 874-6375"
+  },
+  "locksmith-delray": {
+    "phone": "5619442457",
+    "textPhone": "(561) 944-2457"
+  },
+  "locksmith-bronx": {
+    "phone": "9144106221",
+    "textPhone": "(914) 410-6221"
+  },
+  "locksmith-the-colony": {
+    "phone": "9727796883",
+    "textPhone": "(972) 779-6883"
+  },
+  "locksmith-glenview": {
+    "phone": "8476651160",
+    "textPhone": "(847) 665-1160"
+  },
+  "locksmith-glendale": {
+    "phone": "6233001942",
+    "textPhone": "(623) 300-1942"
+  },
+  "locksmith-putnam-valley": {
+    "phone": "8452992464",
+    "textPhone": "(845) 299-2464"
+  },
+  "locksmith-old-saybrook": {
+    "phone": "8606096690",
+    "textPhone": "(860) 609-6690"
+  },
+  "locksmith-denison": {
+    "phone": "4302240367",
+    "textPhone": "(430) 224-0367"
+  },
+  "locksmith-tomball": {
+    "phone": "2819904882",
+    "textPhone": "(281) 990-4882"
+  },
+  "locksmith-richardson": {
+    "phone": "4697174275",
+    "textPhone": "(469) 717-4275"
+  }
+}

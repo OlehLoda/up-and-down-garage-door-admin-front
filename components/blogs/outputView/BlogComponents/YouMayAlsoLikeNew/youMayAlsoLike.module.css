@@ -1,0 +1,84 @@
+.youMayAlso > div {
+  max-width: 1150px;
+  padding: 50px 20px 50px 20px;
+  margin-top: 0;
+}
+
+.youMayAlso > div > h2 {
+  text-align: center;
+}
+
+.youMayAlso > div > hr {
+  margin: 0 auto;
+}
+
+.blogCard {
+  display: grid;
+}
+.coverTitle {
+  display: grid;
+  gap: 20px;
+}
+.coverTitle {
+  justify-self: center;
+}
+
+.coverTitle h2 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+
+.coverTitle hr {
+  width: 100px;
+  height: 2px;
+  border: none;
+  background: #e1c350;
+  margin: 0 auto;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.youMayAlsoBlock {
+  max-width: 1150px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: grid;
+  gap: 30px;
+  padding: 0 20px;
+}
+@media screen and (max-width: 1024px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+  .coverTitle h2,
+  .coverTitle hr {
+    justify-self: center;
+    text-align: center;
+  }
+  .youMayAlso > div {
+    padding: 42px 15px 0 15px;
+  }
+  .youMayAlso > div > h2 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .youMayAlso > div > hr {
+    margin: auto;
+  }
+  .blogCard > a {
+    display: grid;
+  }
+  .blogCard > a > div {
+    margin: 0;
+  }
+}

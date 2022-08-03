@@ -1,0 +1,89 @@
+.coverFirstBlogComponent {
+  margin: 0 auto;
+  margin-top: 42px;
+  max-width: 1280px;
+}
+
+.FirstBlogComponentBg {
+  min-height: 400px;
+  display: grid;
+  place-items: end center;
+}
+
+.FirstBlogComponent {
+  padding: 0 15px;
+}
+
+.FirstBlogComponent > h1 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  text-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  max-width: 660px;
+  padding: 0 0 20px 0;
+}
+
+.hrYellow {
+  width: 100px;
+  background: #f0cb3a;
+  height: 2px;
+  margin: 0 auto 50px auto;
+  border: none;
+}
+
+.coverText {
+  display: grid;
+  gap: 20px;
+  padding: 50px 20px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.text {
+  max-width: 1150px;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 27px;
+  text-align: justify;
+}
+
+.text > a {
+  color: #0876e0;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .coverText {
+    padding: 42px 15px;
+  }
+  .FirstBlogComponentBg {
+    min-height: 280px;
+  }
+  .FirstBlogComponent > h1 {
+    max-width: 500px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25),
+      0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 0 20px 0;
+  }
+}

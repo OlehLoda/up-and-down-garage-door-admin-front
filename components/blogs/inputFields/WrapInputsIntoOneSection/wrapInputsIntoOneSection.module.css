@@ -1,0 +1,61 @@
+.wrapInputsIntoOneSection {
+  display: grid;
+  padding: 10px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  box-shadow: var(--main-grey-box-shadow);
+}
+
+.inputsHead {
+  cursor: pointer;
+  background-color: var(--body-color);
+  color: var(--secondary-color);
+  border-radius: 8px;
+  font-size: 18px;
+
+  width: 100%;
+  padding: 10px;
+  padding-right: 40px;
+
+  position: relative;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  user-select: none;
+  text-transform: capitalize;
+  transition: 0.1s;
+}
+.inputsHead:hover {
+  box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.arrowForInputsHead {
+  position: absolute;
+  top: calc(50% - 4px);
+  right: 10px;
+
+  transition: 0.3s;
+}
+
+.wrapInputsIntoOneSection .inputsBody {
+  display: grid;
+  gap: 10px;
+
+  transition: 0.3s;
+  height: 0;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+.wrapInputsIntoOneSection .inputsBody::-webkit-scrollbar {
+  width: 8px;
+}
+.wrapInputsIntoOneSection .inputsBody::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  border: 2px solid var(--body-color);
+}
+.wrapInputsIntoOneSection .inputsBody::-webkit-scrollbar-track {
+  background-color: var(--body-color);
+  border-radius: 8px;
+}

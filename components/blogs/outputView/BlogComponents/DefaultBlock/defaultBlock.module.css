@@ -1,0 +1,261 @@
+/* @media (min-aspect-ratio: 2/3) { */
+.coverComponent {
+  display: grid;
+  gap: 27px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.coverTitle {
+  display: grid;
+  gap: 20px;
+}
+
+.coverTitle > h2 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+
+.coverTitle > hr {
+  width: 100px;
+  border: none;
+  background-color: #e1c350;
+  height: 2px;
+  margin: 0px auto 3px;
+}
+
+.coverBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.coverText,
+.coverLastText,
+.coverTextBlockTwoGrided,
+.coverTextBlockTwo,
+.coverTextBlockGrided,
+.coverTextBlock {
+  display: grid;
+  gap: 27px;
+  align-content: start;
+}
+
+.coverTextBlock {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.coverTextBlockGrided {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.coverTextBlockTwo {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.coverTextBlockTwoGrided {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.listItem,
+.orderedListItem,
+.textBlockOther,
+.textBlock {
+  width: 100%;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
+}
+
+.listItemTitleWithEnter > p:first-child,
+.listItemTitle > p:first-child {
+  font-weight: 600;
+  padding: 0 5px 0 0;
+}
+
+.listItemTitleWithEnter,
+.listItemTitle {
+  /* text-align: start; */
+  list-style-position: outside;
+  list-style-image: url(../../../../../public/image/listIconLightBlueNew.svg);
+}
+
+.listItemTitle::marker {
+  display: block;
+}
+
+.listItemTitle > p {
+  display: inline;
+}
+
+.coverListWithTitleWithEnter,
+.coverListWithTitle {
+  margin: 0;
+  margin-left: 25px;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.listItem {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: flex-start;
+  align-content: center;
+  height: fit-content;
+}
+
+.listItem::before {
+  content: url(../../../../../public/image/listIconLightBlueNew.svg);
+}
+
+.coverListTwo,
+.coverList,
+.coverListBullet {
+  list-style: none;
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.textBlock {
+  max-width: 540px;
+}
+
+.textBlockOther > a,
+.textBlock > a {
+  color: #0876e0;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.coverLastBlock {
+  display: grid;
+  gap: 27px;
+}
+
+.bodyImg {
+  max-width: 540px;
+  height: 324px;
+  border-radius: 8px;
+  /* width: 100%; */
+}
+
+.mobileImage {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .coverListTwo,
+  .coverList,
+  .coverListBullet {
+    padding: 0 15px;
+  }
+
+  .coverInfoButton {
+    padding: 0 15px;
+  }
+
+  .bodyImg {
+    border-radius: unset;
+  }
+
+  .coverListTwo,
+  .coverList {
+    padding: 0 15px;
+  }
+
+  .coverBody .coverTextBlockTwo,
+  .coverBody .coverTextBlockTwoGrided {
+    display: none;
+  }
+
+  .coverTextBlockTwoGrided {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .coverTextBlockGrided {
+    display: grid;
+    gap: 27px;
+    grid-column: 1;
+  }
+
+  .mobileImage {
+    display: block;
+    width: 100%;
+  }
+
+  .coverComponentNoTop {
+    padding: 0px 0px 42px;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+
+  .coverComponentNoBottom {
+    padding: 42px 0px 0px;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+
+  .coverComponentNoPadding {
+    padding: 0px 0px;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+
+  .coverTitle {
+    padding: 0 32px;
+  }
+
+  .coverBody {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .coverTextBlock {
+    gap: 20px;
+  }
+
+  .textBlockOther,
+  .textBlock {
+    max-width: unset;
+    padding: 0 15px;
+  }
+
+  .gridedImg,
+  .bodyImg {
+    display: none;
+  }
+
+  .coverListWithTitleWithEnter,
+  .coverListWithTitle {
+    padding: 0 15px 0 10px;
+  }
+}

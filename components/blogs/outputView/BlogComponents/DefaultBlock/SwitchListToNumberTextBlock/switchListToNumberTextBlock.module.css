@@ -1,0 +1,78 @@
+.coverListNumbers {
+  display: grid;
+  gap: 16px;
+  margin: 0 0 0 31px;
+  padding: 0;
+}
+
+.coverListBullet {
+  list-style: none;
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+.coverListBullet > li > div,
+.coverListBullet > li > h6,
+.coverListBullet > li > h5,
+.coverListBullet > li > h4,
+.coverListBullet > li > h3,
+.coverListBullet > li > h2,
+.coverListBullet > li > h1 {
+  display: inline-block;
+}
+
+/* .listItem {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: flex-start;
+  align-content: center;
+  height: fit-content;
+} */
+.listItem {
+  width: 100%;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: start;
+}
+.listItem br {
+  content: "";
+  display: block;
+  height: 10px;
+  /* background-color: red; */
+}
+.listItem p {
+  margin-left: 31px;
+  display: block;
+}
+.listItem a {
+  color: #0876e0;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.orderedListItem {
+  width: 100%;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: start;
+}
+
+.listItem::before {
+  content: url(../../../../../../public/image/listIconLightBlueNew.svg);
+  margin: 0px 16px 0px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .coverListBullet {
+    padding: 0 15px;
+  }
+}

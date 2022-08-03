@@ -1,0 +1,64 @@
+.fileWithPreview {
+  position: relative;
+  display: grid;
+  gap: 20px;
+}
+
+.coverPreview > .removeImage {
+  display: none;
+}
+
+.coverPreview:hover > .removeImage {
+  display: grid;
+}
+
+.coverPreview {
+  position: relative;
+  max-height: 200px;
+}
+
+.removeImage {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.coverPreview > img {
+  max-height: 100px;
+}
+.wrapChoosePhoto{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0px 0px 3px #c4c4c4;
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.wrapChoosePhoto > p,
+.wrap > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 40px;
+  color: var(--color-font-dark-blue);
+  transition: 0.3s;
+  user-select: none;
+}
+.wrapChoosePhoto:hover{
+  background-color: var(--color-light-grey);
+}
+.imagePreviewIcon {
+  transition: 0.3s;
+  fill: var(--color-font-dark-blue);
+}
+.wrapChoosePhoto:hover > p  {
+  color: #FFFFFF;
+}
+.wrapChoosePhoto:hover .imagePreviewIcon {
+  fill: #FFFFFF;
+}

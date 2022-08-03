@@ -1,0 +1,13 @@
+.inputName {
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  display: grid;
+  gap: 5px;
+}
+.defaultInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: var(--main-grey-box-shadow);
+}

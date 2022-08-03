@@ -1,0 +1,105 @@
+.headerWrap {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  background: var(--main-color);
+  width: 100vw;
+  height: 80px;
+  padding: 20px;
+  position: relative;
+}
+
+.headerWrap > h1 a,
+.headerWrap > h1 {
+  display: grid;
+  grid-auto-flow: column;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 32px;
+  color: var(--secondary-color);
+}
+.headerWrap > h1 a {
+  display: inline-block;
+  transition: 0.3s;
+}
+.headerWrap > h1 a:hover {
+  transform: translateY(-5px) scale(0.9);
+}
+.burgerBtn {
+  display: grid;
+  gap: 10px;
+  align-content: center;
+  cursor: pointer;
+}
+.burgerBtn > span {
+  width: 45px;
+  height: 5px;
+  background-color: var(--secondary-color);
+  transition: transform 0.4s ease-in-out;
+  border-radius: 10px;
+}
+.mainMenu {
+  display: grid;
+  align-content: flex-start;
+  height: var(--main-height);
+  width: 300px;
+  background-color: var(--main-color);
+  position: absolute;
+  top: 80px;
+  left: -100%;
+  transition: left 0.4s ease-in-out;
+  padding: 20px 10px;
+  gap: 10px;
+  z-index: 1;
+}
+.mainMenu::after {
+  content: "";
+  width: calc(100vw - 300px);
+  background: rgba(0, 0, 0, 0);
+  filter: blur(100);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+.openMainMenu {
+  display: none;
+}
+.openMainMenu:checked ~ .mainMenu {
+  left: 0;
+}
+.openMainMenu:checked ~ .burgerBtn .firstBrgLine {
+  transform: rotate(45deg) translateY(10px) translateX(10px);
+}
+.openMainMenu:checked ~ .burgerBtn .secondBrgLine {
+  transform: scale(0);
+}
+.openMainMenu:checked ~ .burgerBtn .thirdBrgLine {
+  transform: rotate(-45deg) translateY(-10px) translateX(10px);
+}
+.oneMainMenuLink a {
+  font-size: 22px;
+  color: var(--main-black-color);
+}
+.oneMainMenuLink {
+  display: grid;
+  align-items: center;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  width: 100%;
+  min-height: 50px;
+  height: fit-content;
+  padding: 10px;
+  transition: 0.3s;
+}
+.oneMainMenuLink a {
+  transition: 0.3s;
+}
+.oneMainMenuLink:hover a {
+  font-size: 20px;
+}
+.oneMainMenuLink:hover {
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.4);
+}

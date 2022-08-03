@@ -1,0 +1,24 @@
+.coverTitle {
+  display: grid;
+  gap: 20px;
+}
+
+.coverTitle > h2 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+
+.coverTitle > hr {
+  width: 100px;
+  border: none;
+  background-color: #e1c350;
+  height: 2px;
+  margin: 0px auto 3px;
+}

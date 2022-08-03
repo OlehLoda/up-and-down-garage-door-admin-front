@@ -1,0 +1,21 @@
+.textArea {
+  background: #ffffff;
+  width: 100%;
+  box-shadow: var(--main-grey-box-shadow);
+
+  border-radius: 8px;
+  border: none;
+  outline: unset;
+  margin: 0;
+  padding-left: 7px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  resize: none;
+}
+.inputName {
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  display: grid;
+  gap: 5px;
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "block_type": "main_block",
+    "headline": "Lorem ipsum dolor sit amet.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "image": {
+      "name": "listIconLightBlue.svg",
+      "alt": "example",
+      "title": "example"
+    },
+    "id": "asdfghjhgszkfjhgsdfjhgsdkjhfgkl"
+  },
+  {
+    "block_type": "meta_tags",
+    "headline": "Lorem ipsum dolor sit amet.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "body_text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "last_text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "image": {
+      "name": "listIconLightBlue.svg",
+      "alt": "example",
+      "title": "example"
+    },
+    "list": "Lorem ipsum\n dolor sit amet\n consectetur\n adipisicing elit",
+
+    "id": "kldsjfkljhdslkfhdlkfjlkdjflkds"
+  },
+  {
+    "block_type": "default_block",
+    "headline": "Lorem ipsum dolor sit amet.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "body_text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "last_text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "image": {
+      "name": "listIconLightBlue.svg",
+      "alt": "example",
+      "title": "example"
+    },
+    "list": "Lorem ipsum\n dolor sit amet\n consectetur\n adipisicing elit",
+
+    "id": "sdfbskdbvfmnbvsdfmsdvbfnbsvdf"
+  },
+  {
+    "block_type": "you_may_also_like",
+    "headline": "Lorem ipsum dolor sit amet.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "image": {
+      "name": "listIconLightBlue.svg",
+      "alt": "example",
+      "title": "example"
+    },
+    "id": "asdfghjhgszkfjhgsdfjhgsdkjhfgkl"
+  },
+  {
+    "block_type": "prices_block",
+    "headline": "Lorem ipsum dolor sit amet.",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "body_text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "last_text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe porro architecto eligendi tempora explicabo itaque sunt! Distinctio, pariatur alias error, laboriosam, eaque cumque odit voluptatum quis possimus ipsum sed est.",
+    "image": {
+      "name": "listIconLightBlue.svg",
+      "alt": "example",
+      "title": "example"
+    },
+    "list": "Lorem ipsum\n dolor sit amet\n consectetur\n adipisicing elit",
+
+    "id": "shdgfjkhdsgfldshfkjsdhfjlksdhfl"
+  }
+]

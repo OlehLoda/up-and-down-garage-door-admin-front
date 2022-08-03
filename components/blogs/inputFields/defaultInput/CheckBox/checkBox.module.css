@@ -1,0 +1,45 @@
+.inputName {
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  display: grid;
+  gap: 5px;
+}
+.defaultCheckBoxInput {
+  width: 50px;
+  height: 0px;
+  margin-bottom: 24px;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+.defaultCheckBoxInput::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 30px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.defaultCheckBoxInput:checked::before {
+  background-color: var(--body-color);
+}
+.defaultCheckBoxInput::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: calc(50% - 12px);
+  background-color: var(--body-color);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s;
+  border: 1px solid var(--secondary-color);
+}
+.defaultCheckBoxInput:checked::after {
+  transform: translateX(50%);
+  background-color: var(--secondary-color);
+}
